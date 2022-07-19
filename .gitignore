@@ -13,4 +13,4 @@ package.json.rej
 .umi/core/routes.ts
 .umi/core/umiExports.ts
 
-test/**
+/test/**
