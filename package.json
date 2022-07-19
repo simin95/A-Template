@@ -1,0 +1,25 @@
+{
+  "name": "a-template",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "dev": "cd server && npm run dev",
+    "start": "cd server && npm run start",
+    "stop": "cd server && npm run stop",
+    "build": "npm run clientbuild && npm run serverbuild",
+    "install": "npm run clientInstall && npm run serverInstall",
+    "clientInstall": "cd client && yarn",
+    "serverInstall": "cd server && yarn",
+    "clientbuild": "cd client && npm run build",
+    "serverbuild": "cd server && npm run build"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "midway",
+    "typeScript",
+    "ant-design"
+  ],
+  "dependencies": {}
+}
